@@ -1,0 +1,34 @@
+how we can build responsive layouts by using css and html.flex box work in only one direction either 
+in horizontal or vertical so if we have to put two boxes at one side and one box on another side then we can not 
+do this by using flex box. 
+instead doing nested loops we can create complex layout using grids.
+
+some grid properties are,
+
+grid container: means elements containing a grid defined by setting display:grid;
+grid item: element that is a direct of the grid container.
+grid line : grid lines are referenced by number, starting and ending with the outer
+borders of the grid.
+grid cell :  any cell inside the grid.
+grid area: rectangular area between four specified grid lines. grid areas can cover
+one or more cells.
+grid track : the space between two or more adjecent grid lines. row tracks are 
+horizontal, column tracks vertical.
+grid gap : empty space between grid tracks commonly called gutters.
+we can give fractions of columns like 1fr in property grid-template-columns and grid-template-rows.
+grid template areas : applied to grid container. uses a text based grid map to apply grid area names to individual cells.
+grid template area makes resonsiveness very much simple 
+nested grids : grids are not inherited by child elements instead we create nested grids.
+by RWD we have been serving up different layouts for different browsers since 2010. 
+
+
+
+When to use Grids, When to use flexes :
+
+The main difference is that you can use CSS Grid to create two-dimensional layouts. In contrast, you can only use Flexbox to create one-dimensional layouts.
+That means you can place components along the X- and Y-axis in CSS Grid and only one axis in Flexbox.
+With CSS Grid, you can align components into columns and rows. 
+This feature makes it ideal for larger layouts that must be divided into sections.
+In other words, this type of layout will have elements that need to overlap and layer rather than being linear.
+With Flexbox, you can lay out and align elements in a container even if you don’t know the size of those elements or if the size might change. 
+That’s because a flex container is, well, flexible: it expands the flex elements to fill space when it’s available and shrinks them to prevent overflow when it’s not.
